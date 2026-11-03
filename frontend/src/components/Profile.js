@@ -35,14 +35,14 @@ export default function Profile({ currentUser, posts, onEditClick, onPostDeleted
                     body: JSON.stringify({ userId: currentUser.user_id })
                   });
                   onPostDeleted(post.id);
-                }}
-              >
-                Delete
-              </button>
-            </div>
-          </article>
-        ))
-      )}
-    </div>
-  );
+    }}
+>
+  Delete
+</button>
+</div>
+</article>
+))
+)}
+</div>
+);
 }

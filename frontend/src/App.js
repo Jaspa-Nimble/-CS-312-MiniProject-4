@@ -13,7 +13,7 @@ export default function App() {
   const [posts, setPosts] = useState([]);
   const [editingPost, setEditingPost] = useState(null);
 
-  // Step 3: Fetch posts and verify connection
+  // Fetch posts and verify connection
   useEffect(() => {
     fetch("http://localhost:8000/api/posts")
       .then((res) => res.json())

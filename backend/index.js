@@ -21,7 +21,6 @@ let posts = [
   }
 ];
 
-// --- AUTHENTICATION ROUTES (Step 4 & Bonus) ---
 
 // Signup
 app.post("/api/signup", (req, res) => {
@@ -67,7 +66,6 @@ app.post("/api/signin", (req, res) => {
   });
 });
 
-// --- BLOG POST ROUTES (Steps 3, 5, 6, 7, 8) ---
 
 // Get all posts
 app.get("/api/posts", (req, res) => {
